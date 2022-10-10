@@ -9,7 +9,6 @@
     "author": "@af",
     "repo": "https://github.com/NobyDa/Script/blob/master/Bilibili-DailyBonus/Manga.js",
     "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/manga.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/manga.png"]
-  }
  "task": [{
     "config": "0 8 * * * https://raw.githubusercontent.com/abigQ/private/main/me-school-jkdk.js, tag=健康打卡, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"
   }]
