@@ -18,5 +18,6 @@ hostname = ssl.gongyi.qq.com
 var body=$response.body;
 
 body=body.replace(/"his_sum":[\d]*/g,'"his_sum":99999');
+body=body.replace(/continue","sum":[\d]*/g,'continue","sum":99339');
 
 $done({body});
