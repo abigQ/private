@@ -1,1 +1,24 @@
+/*************************************
 
+项目名称：乐健体育（QX测试）
+
+**************************************
+
+[rewrite_local]
+
+^https://cpes.legym.cn/running/app/v2/uploadRunningDetails
+
+[mitm]
+
+hostname = cpes.legym.cn
+
+*************************************/
+
+
+var body=$request.body;
+
+body=body.replace(/"Mileage":\d\.\d*/g,'Mileage":4.9999248947061934');
+body=body.replace(/deviceType":"[^"]*/g,'deviceType":"iPhone 10');
+body=body.replace(/paceNumber":\d*/g,'paceNumber":9999');
+
+$done({body});
