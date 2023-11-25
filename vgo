@@ -1,1 +1,26 @@
+/*************************************
 
+项目名称：微购相册（QX测试）
+
+**************************************
+
+[rewrite_local]
+
+^https://www.wsxcme.com/increase/api/v3
+
+[mitm]
+
+hostname = wsxcme.com
+
+*************************************/
+
+
+var body=$request.body;
+
+body=body.replace(/vipRemainDay":[^,]*/g,'vipRemainDay":1494');
+body=body.replace(/vipExpireTimeStamp":[\w]*/g,'vipExpireTimeStamp":19999999999999');
+body=body.replace(/vipExpireTime":"2[^"]*/g,'vipExpireTime":"2033-05-18 11:33:19');
+body=body.replace(/vipStatus":[\w]*/g,'vipStatus":6');
+body=body.replace(/vipExpireTime":"1[^"]*/g,'vipExpireTime":"19999999999999');
+
+$done({body});
