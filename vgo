@@ -6,11 +6,11 @@
 
 [rewrite_local]
 
-^https://ssl\.gongyi\.qq\.com/gygw-app/ed url script-response-body https://raw.githubusercontent.com/abigQ/private/main/txgongyi
+^https://www.wsxcme.com/increase/api/v3 url script-response-body https://raw.githubusercontent.com/abigQ/private/main/vgo
 
 [mitm]
 
-hostname = ssl.gongyi.qq.com
+hostname = wsxcme.com
 
 *************************************/
 
