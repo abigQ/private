@@ -15,7 +15,7 @@ hostname = wsxcme.com
 *************************************/
 
 
-var body=$request.body;
+var body=$response.body;
 
 body=body.replace(/vipRemainDay":[^,]*/g,'vipRemainDay":1494');
 body=body.replace(/vipExpireTimeStamp":[\w]*/g,'vipExpireTimeStamp":19999999999999');
