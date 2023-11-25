@@ -22,6 +22,6 @@ body=body.replace(/vipExpireTimeStamp":[\w]*/g,'vipExpireTimeStamp":199999999999
 body=body.replace(/vipExpireTime":"2[^"]*/g,'vipExpireTime":"2033-05-18 11:33:19');
 body=body.replace(/vipStatus":[\w]*/g,'vipStatus":5');
 body=body.replace(/vipExpireTime":"1[^"]*/g,'vipExpireTime":"19999999999999');
-body=body.replace(/status":0/g,'vstatus":1');
+body=body.replace(/status":0/g,'status":1');
 
 $done({body});
