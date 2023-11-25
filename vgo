@@ -1,12 +1,12 @@
 /*************************************
 
-项目名称：腾讯公益小红花（QX自慰）
+项目名称：微购相册vip（QX测试）
 
 **************************************
 
 [rewrite_local]
 
-^https://www.wsxcme.com/increase/api/v3 url script-response-body https://raw.githubusercontent.com/abigQ/private/main/vgo
+^https://www.wsxcme.com/increase/api/v3/* url script-response-body https://raw.githubusercontent.com/abigQ/private/main/vgo
 
 [mitm]
 
