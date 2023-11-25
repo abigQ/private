@@ -1,16 +1,16 @@
 /*************************************
 
-项目名称：微购相册（QX测试）
+项目名称：腾讯公益小红花（QX自慰）
 
 **************************************
 
 [rewrite_local]
 
-^https://www.wsxcme.com/increase/api/v3
+^https://ssl\.gongyi\.qq\.com/gygw-app/ed url script-response-body https://raw.githubusercontent.com/abigQ/private/main/txgongyi
 
 [mitm]
 
-hostname = wsxcme.com
+hostname = ssl.gongyi.qq.com
 
 *************************************/
 
