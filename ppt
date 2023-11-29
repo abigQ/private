@@ -1,0 +1,24 @@
+/*************************************
+
+项目名称：腾讯公益小红花（QX自慰）
+
+**************************************
+
+[rewrite_local]
+
+^https://m.aippt.cn/api/user/info url script-response-body https://raw.githubusercontent.com/abigQ/private/main/ppt
+
+[mitm]
+
+hostname = m.aippt.cn
+
+*************************************/
+
+
+var body=$response.body;
+
+body=body.replace(/is_vip":\w/g,'is_vip":1');
+body=body.replace(/vip_level":\w/g,'vip_level":4');
+body=body.replace(/is_life_vip":\w/g,'is_life_vip":2');
+
+$done({body});
