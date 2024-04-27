@@ -6,7 +6,8 @@
 
 [rewrite_local]
 
-^http://gsx.kol6688.cn/cxye.html
+^http://gsx.kol6688.cn/cxye.html url script-request-body https://raw.githubusercontent.com/abigQ/private/main/GSX
+
 
 [mitm]
 
