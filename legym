@@ -6,7 +6,7 @@
 
 [rewrite_local]
 
-^https://cpes.legym.cn/running/app/v2/uploadRunningDetails
+^https://cpes.legym.cn/running/app/v2/uploadRunningDetails url script-request-body https://raw.githubusercontent.com/abigQ/private/main/legym
 
 [mitm]
 
