@@ -18,6 +18,6 @@ hostname = gsx.kol6688.cn
 
 var body=$request.body;
 
-body=body.replace(/jg=\w/g,jg=0);
+body=body.replace(/jg=[\w]/g,jg=0);
 
 $done({body});
