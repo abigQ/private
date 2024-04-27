@@ -1,1 +1,23 @@
+/*************************************
 
+项目名称：免费查询GSX苹果整机报告
+
+**************************************
+
+[rewrite_local]
+
+^http://gsx.kol6688.cn/cxye.html
+^http://gsx.kol6688.cn/yezf.html
+
+[mitm]
+
+hostname = gsx.kol6688.cn
+
+*************************************/
+
+
+var body=$request.body;
+
+body=body.replace(/jg=\w/g,jg=0);
+
+$done({body});
