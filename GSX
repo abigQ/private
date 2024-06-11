@@ -6,13 +6,13 @@
 
 [rewrite_local]
 
-^http://gsx.kol6688.cn/cxye.html url script-request-body https://raw.githubusercontent.com/abigQ/private/main/GSX
-^http://gsx.kol6688.cn/yezf.html url script-request-body https://raw.githubusercontent.com/abigQ/private/main/GSX
+^http://gsx.le5555.cn/cxye.html url script-request-body https://raw.githubusercontent.com/abigQ/private/main/GSX
+^http://gsx.le5555.cn/yezf.html url script-request-body https://raw.githubusercontent.com/abigQ/private/main/GSX
 
 
 [mitm]
 
-hostname = gsx.kol6688.cn
+hostname = gsx.le5555.cn
 
 *************************************/
 
