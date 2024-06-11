@@ -19,6 +19,6 @@ hostname = gsx.le5555.cn
 
 var body=$request.body;
 
-body=body.replace(/jg=[\w]/g,jg=0);
+body=body.replace(/jg=[^,]*/g,jg=0);
 
 $done({body});
