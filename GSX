@@ -6,8 +6,8 @@
 
 [rewrite_local]
 
-^http://gsx.le5555.cn/cxye.html url script-request-body https://raw.githubusercontent.com/abigQ/private/main/GSX
-^http://gsx.le5555.cn/yezf.html url script-request-body https://raw.githubusercontent.com/abigQ/private/main/GSX
+^https://gsx.le5555.cn/cxye.html url script-request-body https://raw.githubusercontent.com/abigQ/private/main/GSX
+^https://gsx.le5555.cn/yezf.html url script-request-body https://raw.githubusercontent.com/abigQ/private/main/GSX
 
 
 [mitm]
