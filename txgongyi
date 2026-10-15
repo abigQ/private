@@ -1,3 +1,4 @@
+
 /*************************************
 
 项目名称：腾讯公益小红花（QX自慰）
@@ -17,7 +18,7 @@ hostname = ssl.gongyi.qq.com
 
 var body=$request.body;
 
-body=body.replace(/t=/d*,'t=d');
+body=body.replace(/t=\d*,'t=(new Date()).valueOf()');
 **body=body.replace(/question","sum":[\d]*/g,'question","sum":49961');
 **body=body.replace(/step","sum":[\d]*/g,'step","sum":49960');
 
