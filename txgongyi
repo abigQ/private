@@ -15,10 +15,10 @@ hostname = ssl.gongyi.qq.com
 *************************************/
 
 
-var body=$response.body;
+var body=$request.body;
 
-body=body.replace(/"his_sum":[\d]*/g,'"his_sum":99999');
-body=body.replace(/question","sum":[\d]*/g,'question","sum":49961');
-body=body.replace(/step","sum":[\d]*/g,'step","sum":49960');
+body=body.replace(/t=/d*,'t=d');
+**body=body.replace(/question","sum":[\d]*/g,'question","sum":49961');
+**body=body.replace(/step","sum":[\d]*/g,'step","sum":49960');
 
 $done({body});
